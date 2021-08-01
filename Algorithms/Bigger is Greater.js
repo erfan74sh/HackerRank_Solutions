@@ -5,7 +5,7 @@ function biggerIsGreater(w) {
 		// characters after that and store that character(s)
 		let biggerChars = arr.slice(i + 1).filter((v) => arr[i] < v);
 		if (biggerChars.length > 0) {
-			// finde the smallest character that is also bigger than the previous character
+			// find the smallest character that is also bigger than the previous character
 			let index;
 			index = i + 1 + arr.slice(i + 1).indexOf(biggerChars.sort()[0]);
 			// and swap those with each other
