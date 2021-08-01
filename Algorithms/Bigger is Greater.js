@@ -18,6 +18,6 @@ function biggerIsGreater(w) {
 				.join("");
 		}
 	}
-	// if we cant find a pivot character, the original string is the answer
+	// if we cant find a pivot character, the original string is the answer.
 	return "no answer";
 }
