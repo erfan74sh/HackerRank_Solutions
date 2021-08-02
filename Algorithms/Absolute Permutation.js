@@ -1,4 +1,4 @@
-// !i solve this challenge in 2 ways. the first one gets much time to terminate
+// ! i solve this challenge in 2 ways. the first one gets much time to terminate
 
 // *first approach:
 function absolutePermutation(n, k) {
