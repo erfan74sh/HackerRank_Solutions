@@ -1,7 +1,7 @@
 // ! i solve this challenge in 2 ways. the first one gets much time to terminate
 
 // *first approach:
-function absolutePermutation(n, k) {
+function absolutePermutation1(n, k) {
 	let arr = [];
 	if (k == 0) {
 		return Array.from({ length: n }, (v, i) => i + 1);
@@ -19,7 +19,7 @@ function absolutePermutation(n, k) {
 }
 
 //*second approach:
-function absolutePermutation(n, k) {
+function absolutePermutation2(n, k) {
 	let arr = [];
 	if (k == 0) {
 		return Array.from({ length: n }, (v, i) => i + 1);
